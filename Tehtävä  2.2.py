@@ -1,5 +1,4 @@
 import math
-
-radius = float(input("Anna ympyrän säde: "))
-area = math.pi * radius ** 2
-print(f"Ympyrän pinta-ala on {area:.2f}")
+säde = float(input("Anna ympyrän säde: "))
+ala= math.pi * math.pow(säde,2)
+print(f"Ympyrän pinta-ala on {ala:.2f}")
